@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: rgb(195, 155, 155);
+    /* text-decoration: none; */
+}
+
+.hero {
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro,
+.featured-posts,
+.recent-posts {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.intro h2,
+.featured-posts h2,
+.recent-posts h2 {
+    color: #333;
+}
+
+.featured-posts article,
+.recent-posts article {
+    margin: 20px 0;
+}
+
+.featured-posts article h3,
+.recent-posts article h3 {
+    color: #ff6347;
+}
+
+.featured-posts article p,
+.recent-posts article p {
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* New styles for blog.html */
+.blog {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.blog h1 {
+    color: #333;
+}
+
+.blog article {
+    margin: 20px 0;
+}
+
+.blog article h2 {
+    color: #ff6347;
+}
+
+.blog article p {
+    color: #555;
+}
+
+/* New styles for about.html */
+.about {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.about h1,
+.about h2 {
+    color: #333;
+}
+
+.about p {
+    color: #555;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about ul li {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* New styles for contact.html */
+.contact {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.contact h1 {
+    color: #333;
+}
+
+.contact p {
+    color: #555;
+}
+
+.contact .form-group {
+    margin: 10px 0;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact button.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
